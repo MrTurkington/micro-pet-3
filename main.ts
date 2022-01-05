@@ -56,6 +56,7 @@ input.onGesture(Gesture.LogoDown, function () {
 let loneliness = 0
 music.playTone(349, music.beat(BeatFraction.Whole))
 music.playTone(294, music.beat(BeatFraction.Double))
+music.playMelody("- - - - - - - - ", 120)
 basic.forever(function () {
     basic.pause(1000)
     loneliness += 1
